@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        android:defaultValue="@bool/show_popular"
+        android:key="show_popular_key"
+        android:switchTextOn="@string/popular_movie"
+        android:switchTextOff="@string/highest_rated_movies"
+        android:summaryOn="@string/popular_movie"
+        android:summaryOff="@string/highest_rated_movies"
+        android:title="@string/sort"/>
+
+</PreferenceScreen>
